@@ -1,0 +1,10 @@
+schemaVersion: "1.1"
+endpoints:
+    - name: dotnet-core-api-endpoint
+      displayName: dotnet-core-api-endpoint
+      service:
+        basePath: /
+        port: 5291
+      type: REST
+      networkVisibilities:
+        - Public

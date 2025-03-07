@@ -58,5 +58,5 @@ RUN adduser \
 USER 10014
 
 # Set the entrypoint to the built executable
-ENTRYPOINT ["./Program"]
+ENTRYPOINT ["./crudapi"]
 
